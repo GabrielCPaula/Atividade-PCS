@@ -1,0 +1,56 @@
+<!DOCTYPE htm> <!-- é uma instrução para o navegador da web que diz em qual versão do HTML a página é escrita. -->
+<html> <!-- representa o começo do site , tudo dentro estára no site -->
+    <head> <!-- parte que define o cabeçalho da página -->
+		<script src="javascript.js"></script> <!-- Responsável por identificar o javascript utilizado na página -->
+		<link rel="stylesheet" type="text/css" href="style.css"/> <!-- Utilizado para identificar o CSS utilizado na página -->
+    </head> <!-- fechamento do cabeçalho da página -->
+    <body> <!-- parte que define o corpo da página -->
+        <section> <!-- representa o quadrado que contera uma escita dentro da página -->
+            <h3>Avaliação 03 - PCS</h3> <!-- representa título da página -->
+        </section>  <!-- fechamento do section  -->
+        <br> <!-- responsavel por pular linha -->
+        <section> <!-- representa o quadrado que contera o conteúdo da página -->
+        <br>
+        <form id="formCadastro"> <!-- resposavel em deixar os campos de escrita no estilo de formulario para preencher -->
+            Marca:
+            <br>
+            <input type="text" id="txtMarca" required> <!--  caixa de texto para digitar marca-->
+            <br>
+            <br>
+			Modelo:
+            <br>
+            <input type="text" id="txtModelo" required> <!-- caixa de texto para digitar modelo -->
+            <br>
+            <br>
+            Ano:
+            <br>
+            <input type="number" id="txtAno" required> <!--  caixa de texto para digitar ano -->
+            <br>
+            <br>
+            Cor:
+            <br>
+            <input type="text" id="txtColor" required> <!-- caixa de texto para digitar cor -->
+            <br>
+            <br>
+            <button onclick="preencheObjeto()">Adiciona Carro</button> <!-- botão responsavel por adicionar oq foi digitado ao javascript -->
+		</section> <!-- fechamento do quadrado que aparecera conteudo da página -->
+		</form> <!-- fechamento do formulario -->
+        <br>
+        <br>
+        <section class="sectionTwo"> <!-- representa o quadrado que aparecera o resultado dos itens digitados -->
+            <br>
+            <button  onclick="mostrarCarro()">Mostrar Todos</button> <!-- botão responsalvel por mostrar os carros digitados -->
+            <br>
+            <label id="lblMostrarCarro">...</label> <!-- Local onde aparecera os resultados -->
+            <br>
+        </section> <!-- fechamento do quadrado de resultado -->
+    </body> <!-- fechamento do corpo do site -->
+</html> <!-- fechamento do conteudo do site -->
+
+
+
+
+
+<!-- No geral achei um site simples e funcional,  com um design minimalista e cores agradaveis ao olhar.
+Porem acredito que poderia ter adicionado uma função que apareceria apenas os itens que quiser, e  nao somente todos . Pois se for adiconado muitos itens ficara dificil de ser encontrado.
+Mas no geral uma ótima pagina . -->

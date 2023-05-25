@@ -1,0 +1,128 @@
+header{
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	height:170px;
+}
+
+.header{
+	background-color: #015bac;
+	padding: 10px;
+	width: 100%;
+	height:10px;
+	border:0px;
+	margin-top:10px;
+	
+}
+
+h1{
+	color:#015bac;
+}
+
+nav{
+	display: flex;
+    align-items: center;
+}
+
+img{
+	width:350px;
+}
+
+body{
+	padding:0px;
+	border:0px;
+	margin:0px;
+	
+}
+
+section { 
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 410px;
+  margin: 10px;
+  border: 3px solid #ccc;
+  border-color: #015bac;
+  background-color: white;
+  padding: 20px;
+  width: 500px;
+  height:300px;
+  
+  
+}
+
+label{
+	font-size:25px;
+	padding:10px;
+}
+
+
+main{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	margin:100px;
+}
+
+.titulo{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:10px;
+	margin-bottom:-80px;
+	margin-top:100px;
+}
+
+/* BOTAO */
+
+button {
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #004dff;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+  border: #004dff;
+  transition: 0.5s;
+  margin:20px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #020cd1;
+}
+
+.arrow-left {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: 25%;
+  margin-right: auto;
+  margin-top: 45%;
+  margin-bottom: 60%;
+  border-bottom: 15px solid white;
+  transform: rotate(-90deg);
+}
+
+.arrow-right {
+  width: 0px;
+  height: 0px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin-left: auto;
+  margin-right:  25%;
+  margin-top: 45%;
+  margin-bottom: 60%;
+  border-bottom: 15px solid white;
+  transform: rotate(90deg);
+}

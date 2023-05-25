@@ -1,0 +1,17 @@
+dl = document.getElementById("dogs_list")
+<ul id=​"dogs_list">​…​</ul>​
+dl
+<ul id=​"dogs_list">​…​</ul>​
+var dl = document.getElementById("dogs_list")
+undefined
+dl
+<ul id=​"dogs_list">​…​</ul>​
+var dli = dl.getElementsByTagName("li")
+undefined
+dli
+HTMLCollection(4) [li, li, li, li]
+dli[2]
+<li>​…​</li>​::marker​"Pastor alemão"</li>​
+cl.removeChild(dli[2])
+
+

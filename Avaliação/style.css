@@ -1,0 +1,79 @@
+body{ /*  responsavel para dar estilo ao corpo todo do site */
+    background-color: rgb(233, 225, 216); /* cor do site todo */
+    display: flex; /* resposavel por poder deixar o site flexivel e mudar posições de coisas*/
+    flex-direction: column; /* definição de como os itens sera colocado */
+    flex-wrap: nowrap; /* definiçaõ que os itens teram que ficar na mesma linha */
+    align-content: center; /* alinhar o conteudo ao centro */
+    justify-content: center; /* justificar o conteudo no centro*/
+    align-items: center; /* alinhar todos os itens ao centro */
+    font-family:Arial, Helvetica, sans-serif; /* fonte que sera utilizada no site*/
+}
+
+section{ /* responsavel por dar estilo aos quadrados que tera o conteudo do site  */
+    
+    display: flex; /* resposavel por deicar as coisas dentro de si flexivel para mudar posições */
+    background-color: rgb(211, 211, 211); /* cor que sera representada */
+    border-radius: 20px; /* arredondamento da borda */
+    width: 60%; /* tamanho horizontal da página */
+    flex-direction: column; /* definição de como sera colocado os itens presentes dentro */
+    flex-wrap: nowrap; /* todos os itens deveram ficar na mesma linha */
+    align-content: center; /* alinhar conteudo ao centro*/
+    justify-content: center; /* justificar conteudo no centro */
+    align-items: center; /* alinhar todos os itens ao centro*/
+
+}
+
+.sectionTwo{ /* resposanvel por dar estilo a uma section especifica*/
+    display: frex; /* deixar o as coisas dentro de si flexive */
+    background-color: rgb(211, 211, 211); /* cor que sera repreentado*/
+    border-radius: 20px; /* arredondamento da borda*/
+    width: 60%; /* tamanho horizontal  */
+    flex-direction: column; /*definição de como sera colocado os itens presentes dentro */
+    flex-wrap: wrap; /* todos os itens deveram ficar na mesma linha */
+    align-content: center; /* alinhar conteudo ao centro*/
+    justify-content: flex-start; /* alinha os itens no inicio */
+    align-items: flex-start; /* alinhar itens no meio */
+	color: black; /*cor da fonte */
+}
+
+input{ /* responsavel por dar estilo aos campos de digitação*/
+    background-color: white; /* cor do conteudo*/
+    border: 0; /* grossura da borda */
+    border-radius: 12px; /* arredondamento da borda */
+    padding: 4px; /* espaço que ficara no contorno */
+    margin: 5px; /* espaço que ficara nas margens */
+    width: 70%; /* tamanho horinzontal */
+    height: 25px; /* tamanho vertical */
+}
+
+button{ /* resposanvel por dar estilo aos botoes */
+    background-color: rgb(66, 66, 128); /* */
+    border-color: white; /* */
+    border-radius: 30px; /* arredondamento da borda */
+    padding: 14px; /* espaço que ficara no contorno */
+    margin: 13px; /* espaço que ficara nas margens*/
+    color: white; /* cor de fonte branca */
+}
+
+label{ /* resposanvel por dar estilo ao campo que aparecera a resposta */
+	padding: 15px; /* espaço que ficara no contorno */
+    font-weight: bold; /* adiciona negrito a fonte  */
+    color: rgb(0, 15, 65); /* cor da fonte */
+	text-align: left; /* alinha o texto a esquerda */
+	justify-content: left; /* justifica o texto a esquerda */
+    
+}
+
+form{ /* responsavel por dar estilo ao formulario*/
+    padding: 15px; /* espaço do contorno */
+    font-weight: bold; /* deixa a fonte em negrito */
+    color: rgb(0, 15, 65); /* cor da fonte */
+    font-size: small; /* tamanho da fonte*/
+    width: 80%; /* tamanho horizontal */
+    display: flex; /* deixa flexivel para mudanças */
+    flex-direction: column; /* definição de como sera colocado os itens presentes dentro */
+    flex-wrap: nowrap; /* definiçaõ que os itens teram que ficar na mesma linha */
+    align-content: space-between; /* alinha o conteudo verticalmente ao centro */
+    justify-content: center; /* justifica ao centro */
+    align-items: center; /* alinha todos os itens ao centro */
+}

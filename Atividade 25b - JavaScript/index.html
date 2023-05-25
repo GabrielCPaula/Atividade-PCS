@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Atividade 25 b - PCS</title>
+		<script src="javascript.js"></script>
+	</head>
+	<body>
+		<h1>Minha página de cálculos</h1>
+		<br>
+		<h3>Cálculo de IMC</h3>
+		<br>
+		Peso:
+		<br>
+		<input type="text" id="campoPeso" name="campoPeso" placeholder="Peso">
+		<br>
+		Altura(em centímetros):
+		<br>
+		<input type="text" id="campoAltura" name="campoAltura" placeholder="Altura em centímetros">
+		<br>
+		<button type="button" onclick="calculaIMC()"> Calcular </button>
+		<br>
+		<label id="labelIMC">Antes de calcular...</label>
+		<br><br>
+		
+		<h3>Conversor</h3>
+		<br>
+		Digite o valor em metros:
+		<br>
+		<input type="text" id="campoMetros" name="campoMetros" placeholder="Medida em metros">
+		<br>
+		<button type="button" onclick="converteEmCentimetros()"> Converter </button>
+		<br>
+		<label id="labelConverter">Antes de calcular...</label>
+		<br><br>
+		
+		<h3>Calculadora</h3>
+		Valor 01:<input type="text" id="valor01" name="valor01">
+		<br>
+		Valor 02:<input type="text" id="valor02" name="valor02">
+		<br>
+		<button onclick="soma()">Soma</button>
+		<button onclick="subtracao()">Subtração</button>
+		<button onclick="multiplicacao()">Multiplicação</button>
+		<button onclick="divisao()">Divisão</button>
+		<br>
+		<label id="labelCalculadora">...</label>
+		
+		<br><br>
+		<h3>Troca de padrão de datas</h3>
+		Data:
+		<br>
+		<input type="text" id="campoData" name="campoData" placeholder="dd/mm/aaaa">
+		<br>
+		<button onclick="converteData()">Trocar</button>
+		<br>
+		<label id="labelData">...</label>
+		</body>
+</html>
